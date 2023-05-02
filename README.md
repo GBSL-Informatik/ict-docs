@@ -42,3 +42,14 @@ This command generates static content into the `build` directory and can be serv
 ### Deployment
 
 To deploy to production and support editing on your live website (at **your-domain.com/admin**), you can follow the steps from [Tina's docs](https://tina.io/docs/forestry/migrate/#deploy-tina-to-your-site).
+
+
+### Dokku
+
+- [dokku-mongo](https://github.com/dokku/dokku-mongo)
+
+```bash
+dokku mongo:create hfr-ict-docs
+dokku mongo:expose hfr-ict-docs
+
+```
